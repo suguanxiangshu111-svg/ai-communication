@@ -1,0 +1,5 @@
+# AI 智能伴侣 —— 依赖清单
+# 安装：pip install -r requirements.txt
+
+streamlit>=1.49      # 代码使用了 width="stretch" 等较新的界面 API
+openai>=1.55         # 需要新版 SDK 才支持 reasoning_effort 参数
